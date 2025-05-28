@@ -1,0 +1,14 @@
+{
+  "casinos": [
+    {
+      "name": "Casino One",
+      "url": "https://placeholder1.com",
+      "description": "Fun slots and arcade games with free spins."
+    },
+    {
+      "name": "Casino Two",
+      "url": "https://placeholder10.com",
+      "description": "Classic Vegas-style games with daily challenges."
+    }
+  ]
+}
