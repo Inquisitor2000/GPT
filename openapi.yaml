@@ -1,0 +1,30 @@
+openapi: 3.0.0
+info:
+  title: Social Casino List
+  version: 1.0.0
+paths:
+  /social-casinos.json:
+    get:
+      summary: Get top social casino websites
+      operationId: getCasinos
+      responses:
+        '200':
+          description: A list of social casinos
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  casinos:
+                    type: array
+                    items:
+                      type: object
+                      properties:
+                        name:
+                          type: string
+                        url:
+                          type: string
+                        description:
+                          type: string
+servers:
+  - url: https://raw.githubusercontent.com/<Inquisitor2000>/<GPT>/main
