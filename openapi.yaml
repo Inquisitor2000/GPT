@@ -27,4 +27,4 @@ paths:
                         description:
                           type: string
 servers:
-  - url: https://raw.githubusercontent.com/Inquisitor2000/GPT/main
+  - url: https://raw.githubusercontent.com/Inquisitor2000/GPT/refs/heads/main/social-casinos.json
